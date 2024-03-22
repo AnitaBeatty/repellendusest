@@ -1,0 +1,46 @@
+{
+  "name": "repellendusest",
+  "version": "1.0.0",
+  "description": "Zero-configuration TypeScript Standard Validation",
+  "main": "./bin/index.js",
+  "bin": {
+    "standard": "./bin/cli.js"
+  },
+  "files": [
+    "bin/cli.js",
+    "bin/index.js",
+    "LICENSE",
+    "README.md",
+    "tslint.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnitaBeatty/repellendusest.git"
+  },
+  "keywords": [
+    "format",
+    "ea",
+    "tslint",
+    "typescript",
+    "totam",
+    "doloribus",
+    "velit"
+  ],
+  "author": "TheodoraLubowitz",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/AnitaBeatty/repellendusest.git/issues"
+  },
+  "devDependencies": {
+    "@types/glob": "latest",
+    "@types/node": "latest",
+    "@types/webpack": "^1.12.34",
+    "ts-loader": "latest",
+    "ts-node": "latest",
+    "webpack": "latest"
+  },
+  "dependencies": {
+    "tslint": "latest",
+    "typescript": "latest"
+  }
+}
